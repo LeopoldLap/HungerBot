@@ -21,7 +21,7 @@ client.on('guildMemberAdd', member =>{
 });
 
 client.on('guildMemberAdd', member =>{
-    member.addRole('&531145166954823690')
+    member.addRole('531139947239833632')
 });
 
 client.on("message", message => {
