@@ -18,7 +18,7 @@ client.on('guildMemberAdd', member => {
     let embed = new Discord.RichEmbed()
         .setDescription(':tada: ' + member.user + ' à rejoint le serveur discord Hunger Games, Bienvenue !')
     member.guild.channels.get('531924899237855252').send(embed)
-    member.addRole('531558069516369960')
+    member.addRole('531558069516369960');
 });
 
 client.on("message", message => {
