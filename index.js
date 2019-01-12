@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-var prefix = "!";
+let prefix = "!";
 
 client.login(process.env.TOKEN);
 
@@ -21,8 +21,7 @@ client.on('guildMemberAdd', member => {
 });
 
 client.on('guildMemberAdd', member => {
-    var role = member.guild.roles.find('name', ':shield:️Combatants:shield:️');
-    member.addRole(role)
+    member.addRole('531145166954823690')
 });
 
 client.on("message", message => {
